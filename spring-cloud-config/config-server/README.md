@@ -28,7 +28,20 @@ spring.cloud.config.server.git.password=
 /{label}/{application}-{profile}.properties
 ```
 
+##通过eureka注册中心 做成高可用的配置中心
+```xml
+    <!-- 添加 eureka-client 做config server集群 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+```
 
-
+````properties
+#在application.properties配置文件中添加eureka注册地址
+eureka.client.service-url.defaultZone=http://localhost:8081/eureka
+````
+这样将配置中心注册到eureka注册中心上，可做成集群化，
+config-client只用通过服务名来获取配置
 
 
