@@ -9,6 +9,8 @@
         <module name="config-client" />
         <module name="config-server" />
         <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-eureka-client" />
+        <module name="spring-cloud-hystrix" />
         <module name="spring-cloud-zuul" />
       </profile>
     </annotationProcessing>
@@ -17,6 +19,8 @@
       <module name="config-server" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-eureka-client" target="1.8" />
+      <module name="spring-cloud-hystrix" target="1.8" />
       <module name="spring-cloud-zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -25,6 +29,8 @@
       <module name="config-client" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="spring-cloud-eureka" options="-parameters" />
+      <module name="spring-cloud-eureka-client" options="-parameters" />
+      <module name="spring-cloud-hystrix" options="-parameters" />
       <module name="spring-cloud-zuul" options="-parameters" />
     </option>
   </component>

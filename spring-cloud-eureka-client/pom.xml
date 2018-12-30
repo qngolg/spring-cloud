@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.qngolg</groupId>
-    <artifactId>spring-cloud-zuul</artifactId>
+    <artifactId>spring-cloud-eureka-client</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-cloud-zuul</name>
+    <name>spring-cloud-eureka-client</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -25,20 +25,18 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>io.jmnarloch</groupId>
-            <artifactId>ribbon-discover-filter-spring-cloud-starter</artifactId>
-            <scope>2.1.0</scope>
-        </dependency>
-
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
     </dependencies>
 
