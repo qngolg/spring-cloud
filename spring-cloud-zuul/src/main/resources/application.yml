@@ -2,7 +2,7 @@ zuul:
   routes:
     api-a:
       path: /api-a/**
-      serviceId: api-a
+     serviceId: api-a
     api-b:
       path: /api-b/**
       serviceId: api-b
