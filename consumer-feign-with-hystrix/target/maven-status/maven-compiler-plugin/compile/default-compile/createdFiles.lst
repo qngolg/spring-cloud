@@ -1,0 +1,4 @@
+com/qngolg/springcloudhystrix/hystrixcommand/TestCommand.class
+com/qngolg/springcloudhystrix/feign/HelloService.class
+com/qngolg/springcloudhystrix/SpringCloudHystrixApplication.class
+com/qngolg/springcloudhystrix/feign/HelloServiceFallback.class

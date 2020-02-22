@@ -24,3 +24,15 @@ Spring Cloud 微服务框架实战（基于Hoxton版本，Spring Boot 2.2.x版�
 20. Spring CLoud Task
 21. Spring Cloud Security
 22. Spring Cloud Pipelines
+
+## 准备
+### 环境准备：
+|工具|版本或描述|
+|:----|:----|
+|JDK|1.8|
+|IDE|IntelliJ IDEA|
+|Maven|3.x|
+### 项目工程规划：
+|项目名称|端口|描述|URL|
+|:----|:----|:----|:----|
+

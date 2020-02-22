@@ -1,0 +1,4 @@
+/Users/qian.guoliang/code/github/spring-cloud-study/consumer-feign-with-hystrix/src/main/java/com/qngolg/springcloudhystrix/feign/HelloService.java
+/Users/qian.guoliang/code/github/spring-cloud-study/consumer-feign-with-hystrix/src/main/java/com/qngolg/springcloudhystrix/SpringCloudHystrixApplication.java
+/Users/qian.guoliang/code/github/spring-cloud-study/consumer-feign-with-hystrix/src/main/java/com/qngolg/springcloudhystrix/hystrixcommand/TestCommand.java
+/Users/qian.guoliang/code/github/spring-cloud-study/consumer-feign-with-hystrix/src/main/java/com/qngolg/springcloudhystrix/feign/HelloServiceFallback.java
