@@ -18,10 +18,11 @@
     <modules>
         <module>config-client</module>
         <module>config-server</module>
-        <module>consumer-feign</module>
-        <module>consumer-feign-with-hystrix</module>
-        <module>consumer-gateway</module>
-        <module>discovery-eureka</module>
+        <module>service-consumer-feign</module>
+        <module>service-consumer-feign-with-hystrix</module>
+        <module>service-discovery-eureka</module>
+        <module>router-gateway</module>
+        <module>router-zuul</module>
     </modules>
 
     <properties>

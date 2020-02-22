@@ -6,9 +6,10 @@
         <groupId>com.kk.cloud</groupId>
         <artifactId>spring-cloud-microservice-study</artifactId>
         <version>0.0.1-SNAPSHOT</version>
-        <relativePath>../pom.xml</relativePath><!-- lookup parent from repository -->
+        <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>consumer-zuul</artifactId>
+
+    <artifactId>service-consumer-feign-with-hystrix</artifactId>
 
     <dependencies>
         <dependency>
@@ -16,13 +17,16 @@
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
-            <groupId>io.jmnarloch</groupId>
-            <artifactId>ribbon-discover-filter-spring-cloud-starter</artifactId>
-            <scope>2.1.0</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+            <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
     </dependencies>
 </project>

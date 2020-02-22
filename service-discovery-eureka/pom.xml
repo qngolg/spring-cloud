@@ -9,7 +9,7 @@
         <version>0.0.1-SNAPSHOT</version><!-- lookup parent from repository -->
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>discovery-eureka</artifactId>
+    <artifactId>service-discovery-eureka</artifactId>
 
     <dependencies>
         <dependency>
